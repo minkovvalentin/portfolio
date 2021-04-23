@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.container {
+    display: flex;
+    column-gap: 18px;
+    :hover{
+        color:$dark_turquoise;
+    }
+    color: $gray;
+    a {
+        font-size: 34px;
+    }
+}
+
