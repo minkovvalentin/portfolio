@@ -1,6 +1,7 @@
 @import '../../styles/variables.scss';
 
 .container {
+    font-weight: bold;
     display: flex;
     column-gap: 18px;
     :hover{
@@ -9,6 +10,14 @@
     color: $gray;
     a {
         font-size: 34px;
+    }    
+}
+
+.active {
+    color :$turquoise;
+    :hover {
+        color :$turquoise;
     }
 }
+
 
