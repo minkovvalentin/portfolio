@@ -13,8 +13,8 @@ const Navbar = () => {
             {paths.map((path)=> {
                 console.log(router.pathname === path)
                 return (
-                    <div className={ path === router.pathname ? styles.active : '' }>
-                        <Link href={path} key={path}>
+                    <div className={ path === router.pathname ? styles.active : '' } key={path}>
+                        <Link href={path}>
                             <a>
                                 {path === '/' && 'About'}
                                 {path !== '/' &&
